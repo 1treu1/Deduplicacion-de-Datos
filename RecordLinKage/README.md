@@ -15,7 +15,7 @@
 
 Esta libreria permite cencontrar registros duplicados usando varios algoritmos de similitud semantica. Estos son algunos que maneja la libreria:
 
-Jaro–Winkler distance: https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance \\
-Jaro Similarity: https://rosettacode.org/wiki/Jaro_similarity \\
-Levenstein Distance: https://en.wikipedia.org/wiki/Levenshtein_distance
+* Jaro–Winkler distance: https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance \\
+* Jaro Similarity: https://rosettacode.org/wiki/Jaro_similarity \\
+* Levenstein Distance: https://en.wikipedia.org/wiki/Levenshtein_distance
 </div>
