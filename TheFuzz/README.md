@@ -11,7 +11,7 @@
   <a href="https://colab.research.google.com/drive/1LMZnbyKUBBGIzB7fPmd2dhI6KNpJ_MHO?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
   <a href="https://github.com/1treu1/Deduplicacion-de-Datos/tree/main/TheFuzz"><img src="https://img.shields.io/badge/github-Open In Github-brightgreen.svg" alt="Open In Github"></a>
 </br>
-Esta libreria permite cencontrar registros duplicados usando la distancia de Levenstein. 
+Esta libreria permite encontrar registros duplicados usando la distancia de Levenstein. 
 </div>
 
 
