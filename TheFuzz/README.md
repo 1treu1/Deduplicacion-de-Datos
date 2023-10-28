@@ -16,3 +16,10 @@ Esta libreria permite encontrar registros duplicados usando la distancia de Leve
 
 
 * Levenstein Distance: https://en.wikipedia.org/wiki/Levenshtein_distance
+
+Problema:
+- En Mercado libre tienen una base de datos inmensa en su ERP de SALESFORCES. Entre los datos maestros esta la informacion de los clientes. Debido a malas practicas, hay muchos registros dupicados, que hacen que la calidad de los datos no sea la esperada. 
+Se necesita hallar todos los duplicados de la base de datos y dejar un registro unico de los clientes.
+
+Solucion:
+- Usar TheFuzz para entrenar un modelo NLP con el fin de agrupar los registros duplicados en la base de datos

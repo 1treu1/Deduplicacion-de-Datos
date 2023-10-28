@@ -11,5 +11,10 @@
   <a href="colocar repo"><img src="https://img.shields.io/badge/github-Open In Github-brightgreen.svg" alt="Open In Github"></a>
 </br>
 
-Esta libreria permite clusterizar los registros duplicados.
+Problema:
+- En Mercado libre tienen una base de datos inmensa en su ERP de SAP. Entre los datos maestros esta la informacion de los clientes. Debido a malas practicas, hay muchos registros dupicados, que hacen que la calidad de los datos no sea la esperada. 
+Se necesita hallar todos los duplicados de la base de datos y dejar un registro unico de los clientes.
+
+Solucion:
+- Usar Pandas Dedupe para entrenar un modelo NLP con el fin de agrupar los registros duplicados en la base de datos
 </div>
