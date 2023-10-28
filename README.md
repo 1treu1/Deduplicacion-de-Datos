@@ -13,6 +13,13 @@ Deduplicacion de Datos usando las siguientes librerias:
 </br>
 
 Esta libreria permite clusterizar los registros duplicados.
+
+Problema:
+- En Mercado libre tienen una base de datos inmensa en su ERP de SAP. Entre los datos maestros esta la informacion de los clientes. Debido a malas practicas, hay muchos registros dupicados, que hacen que la calidad de los datos no sea la esperada. 
+Se necesita hallar todos los duplicados de la base de datos y dejar un registro unico de los clientes.
+
+Solucion:
+- Usar Pandas Dedupe para entrenar un modelo NLP con el fin de agrupar los registros duplicados en la base de datos
 </div>
 
 2. RecordLinKage:
@@ -32,6 +39,13 @@ Esta libreria permite cencontrar registros duplicados usando varios algoritmos d
 * Jaro Similarity: https://rosettacode.org/wiki/Jaro_similarity
 * Levenstein Distance: https://en.wikipedia.org/wiki/Levenshtein_distance
 
+Problema:
+- En Mercado libre tienen una base de datos inmensa en su ERP de SIESA. Entre los datos maestros esta la informacion de los clientes. Debido a malas practicas, hay muchos registros dupicados, que hacen que la calidad de los datos no sea la esperada. 
+Se necesita hallar todos los duplicados de la base de datos y dejar un registro unico de los clientes.
+
+Solucion:
+- Usar RecordLinkage para entrenar un modelo NLP con el fin de agrupar los registros duplicados en la base de datos
+
 4. TheFuzz
 <div align="center">
 
@@ -49,3 +63,10 @@ Esta libreria permite cencontrar registros duplicados usando la distancia de Lev
 
 
 * Levenstein Distance: https://en.wikipedia.org/wiki/Levenshtein_distance
+
+Problema:
+- En Mercado libre tienen una base de datos inmensa en su ERP de SALESFORCES. Entre los datos maestros esta la informacion de los clientes. Debido a malas practicas, hay muchos registros dupicados, que hacen que la calidad de los datos no sea la esperada. 
+Se necesita hallar todos los duplicados de la base de datos y dejar un registro unico de los clientes.
+
+Solucion:
+- Usar TheFuzz para entrenar un modelo NLP con el fin de agrupar los registros duplicados en la base de datos
